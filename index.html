@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Urwa Zahra - Student CV</title>
+    <title>Urwa Zahra - CV</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -13,7 +13,6 @@
             padding: 20px;
             color: #333;
         }
-        
         .container {
             max-width: 900px;
             margin: 0 auto;
@@ -22,7 +21,6 @@
             border-radius: 12px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
         }
-        
         .header {
             text-align: center;
             background: linear-gradient(to right, #ffffff, #ecf0f1);
@@ -31,7 +29,6 @@
             margin-bottom: 20px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
-        
         h1 {
             color: #2c3e50;
             font-size: 32px;
@@ -39,40 +36,40 @@
             border-bottom: 3px solid #3498db;
             padding-bottom: 15px;
             margin-bottom: 25px;
+            transition: color 0.3s;
         }
-        
+        h1:hover { color: #3498db; }
         h2 {
             color: #8e44ad;
-            font-size: 22px;
+            font-size: 24px;
             margin-top: 10px;
             margin-bottom: 15px;
             border-left: 5px solid #2ecc71;
             padding-left: 10px;
+            transition: color 0.3s;
         }
-        
+        h2:hover { color: #9b59b6; }
         p, li {
             font-size: 16px;
             line-height: 1.6;
             color: #555;
         }
-        
         a {
             color: #e74c3c;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s;
         }
-        
         a:hover {
             color: #e67e22;
             text-decoration: underline;
         }
-        
         ul {
             list-style-type: disc;
             padding-left: 25px;
             margin-bottom: 20px;
         }
-        
+        li { margin-bottom: 8px; }
         .section {
             background-color: rgba(52, 152, 219, 0.05);
             padding: 15px;
@@ -80,18 +77,27 @@
             margin-bottom: 25px;
             box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
         }
+        @media (max-width: 768px) {
+            .container { padding: 20px; }
+            h1 { font-size: 28px; }
+            h2 { font-size: 20px; }
+        }
+        @media (max-width: 480px) {
+            body { padding: 10px; }
+            .container { padding: 15px; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Urwa Zahra</h1>
-            <h2>Software Engineering Student | Reg No: 2023-BSE-068</h2>
+            <h2>Software Engineering Student</h2>
             <div class="section">
-                <p>I am a dedicated Software Engineering student with a passion for learning programming, web development, and basic technologies. I enjoy building simple projects and continuously improving my technical and problem-solving skills.</p>
+                <p>A passionate student pursuing a Bachelor's degree in Software Engineering with an interest in learning programming and web technologies. Always eager to improve and explore new ideas in technology.</p>
             </div>
         </div>
-        
+
         <div class="section">
             <h2>Contact Information</h2>
             <p><strong>Email:</strong> urwazahra@example.com</p>
@@ -99,37 +105,39 @@
             <p><strong>Phone:</strong> 0332-8988702</p>
             <p><strong>Location:</strong> Rawalpindi, Pakistan</p>
         </div>
-        
+
         <div class="section">
             <h2>Education</h2>
-            <p><strong>Bachelor of Software Engineering</strong></p>
-            <p>Department of Software Engineering, Fatima Jinnah Women University (2023–2027)</p>
+            <p><strong>Fatima Jinnah Women University</strong> (2023 - 2027)</p>
+            <p>Bachelor’s in Software Engineering</p>
+            <p>Reg No: 2023-BSE-068</p>
         </div>
-        
+
         <div class="section">
             <h2>Skills</h2>
             <ul>
-                <li>HTML and CSS (Basic Web Design)</li>
-                <li>C++ Programming (Beginner Level)</li>
-                <li>Git and GitHub (Basic Version Control)</li>
+                <li>HTML and CSS (Basic)</li>
+                <li>C++ Programming (Beginner)</li>
+                <li>Git and GitHub (Version Control)</li>
+                <li>Teamwork and Communication</li>
                 <li>Problem Solving</li>
-                <li>Team Collaboration</li>
             </ul>
         </div>
-        
+
         <div class="section">
             <h2>Projects</h2>
             <ul>
-                <li><strong>Personal Portfolio Website:</strong> Created a simple responsive webpage using HTML and CSS to display personal information and skills.</li>
-                <li><strong>Student Record System:</strong> A basic C++ console project to manage student data.</li>
+                <li>Created a simple personal portfolio website using HTML and CSS.</li>
+                <li>Worked on small coding exercises in C++.</li>
+                <li>Learning to use GitHub for project management.</li>
             </ul>
         </div>
-        
+
         <div class="section">
             <h2>Certifications</h2>
             <ul>
-                <li>Introduction to HTML & CSS (freeCodeCamp, 2024)</li>
-                <li>Basics of C++ Programming (Coursera, 2024)</li>
+                <li>Basic Web Development - freeCodeCamp (In Progress)</li>
+                <li>Introduction to Programming - Coursera</li>
             </ul>
         </div>
     </div>
